@@ -18,7 +18,8 @@ public class java3_1tasks {
 class java3_1_1 {
     public static void main(String args[]) {
         int p = 180;
-        if (p <=179) {
+        int k = 179;
+        if (k < p) {
             System.out.println("Не зараховано");
         } else { System.out.println("Зараховано");
 
@@ -46,8 +47,8 @@ class java3_1_3 {
 class java3_1_4 {
     public static void main(String args[]) {
         int s = 899;
-        int y = 0;
-        if (y > 0) {System.out.println("AVG monthly payment " + ((s * 2) + (s * 12))/12);
+        boolean y = true;
+        if (y == true) {System.out.println("AVG monthly payment " + ((s * 2) + (s * 12))/12);
         } else {System.out.println("Year without profit " + s);}
 
     }
@@ -57,10 +58,10 @@ class java3_1_5 {
     public static void main(String args[]) {
         int a = 3;
         int b = -4;
-        int c = 0;
-        int d = 1;
-        a = c;
-        b = d;
+       if (a>0 && b<0){
+           a = 1;
+           b = 0;
+       }
         System.out.println(a);
         System.out.println(b);
 
